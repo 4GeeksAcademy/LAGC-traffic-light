@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-light{
+    border-radius: 50%;
+    border: none;
+    height: 100px;
+    width: 100px;
+    opacity: 35%;
+}
+.red{
+    background-color: red;
+    
+}
+
+.yellow{
+    background-color: yellow;
+ 
+}
+.green{
+    background-color: green;
+}
+
+.active-traffic-light{
+    opacity: 100%;
+}
+
+.traffic-light-container{
+    background-color: black;
+    text-align: center;
+    width: 150px;
+    justify-content: center;
+}
