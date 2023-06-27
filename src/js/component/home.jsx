@@ -10,7 +10,7 @@ const Home = () => {
 	const[activeColor, setActiveColor]= useState("red");
 
 	return (
-		<div className="traffic-light-container ">
+		<div className="traffic-light-container">
 			
 			<TrafficLight activeColor={activeColor} trafficLightColor="red"  setActiveColor={setActiveColor}/>
 			<TrafficLight  activeColor={activeColor} trafficLightColor="yellow"  setActiveColor={setActiveColor}/>

@@ -32,6 +32,8 @@
 
 .active-traffic-light{
     opacity: 100%;
+
+    
 }
 
 .traffic-light-container{
@@ -39,4 +41,6 @@
     text-align: center;
     width: 150px;
     justify-content: center;
+    margin: auto;
+    border-radius: 10px;
 }
