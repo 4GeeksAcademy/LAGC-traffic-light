@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import TrafficLight from "./TrafficLight.jsx";
 
 
@@ -7,14 +7,17 @@ import TrafficLight from "./TrafficLight.jsx";
 
 //create your first component
 const Home = () => {
-	const[activeColor, setActiveColor]= useState("red");
+	const [activeColor, setActiveColor] = useState("red");
 
 	return (
-		<div className="traffic-light-container">
-			
-			<TrafficLight activeColor={activeColor} trafficLightColor="red"  setActiveColor={setActiveColor}/>
-			<TrafficLight  activeColor={activeColor} trafficLightColor="yellow"  setActiveColor={setActiveColor}/>
-			<TrafficLight  activeColor={activeColor} trafficLightColor="green"  setActiveColor={setActiveColor} />
+		<div>
+			<div className="trafficTop"></div>
+			<div className="traffic-light-container">
+
+				<TrafficLight activeColor={activeColor} trafficLightColor="red" setActiveColor={setActiveColor} />
+				<TrafficLight activeColor={activeColor} trafficLightColor="yellow" setActiveColor={setActiveColor} />
+				<TrafficLight activeColor={activeColor} trafficLightColor="green" setActiveColor={setActiveColor} />
+			</div>
 		</div>
 	);
 };

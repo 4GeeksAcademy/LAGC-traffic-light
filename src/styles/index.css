@@ -38,9 +38,14 @@
 
 .traffic-light-container{
     background-color: black;
-    text-align: center;
-    width: 150px;
-    justify-content: center;
+    width: 120px;
     margin: auto;
+    padding: 10px;
     border-radius: 10px;
+}
+.trafficTop{
+    background-color: black;
+    width: 15px;
+    height: 70px;
+    margin: auto;
 }
